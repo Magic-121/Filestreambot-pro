@@ -1,4 +1,4 @@
-# (c) @code-x-mania
+# (c) @Updates_kannada_channels
 import os
 import time
 import string
