@@ -4,7 +4,7 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/code-x-mania/Filestreambot-pro?color=yellow)
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/code-x-mania/Filestreambot-pro)
 ![GitHub](https://img.shields.io/github/license/code-x-mania/Filestreambot-pro)
-[![Bot Support](https://img.shields.io/badge/File%20Stream%20Bot-support%20group-blue)](https://t.me/codexmania)
+[![Bot Support](https://img.shields.io/badge/File%20Stream%20Bot-support%20group-blue)](https://t.me/Updates_kannada_channels)
 
 
 <h1 align="center">FileStreamBot</h1>
