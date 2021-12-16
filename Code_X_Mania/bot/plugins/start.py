@@ -28,19 +28,19 @@ buttonz=ReplyKeyboardMarkup(
             
             
             
-@StreamBot.on_message(filters.regex("maintainers😎"))
+@StreamBot.on_message(filters.regex("maintainers😘"))
 async def follow_user(b,m):
     try:
        await b.send_message(chat_id=m.chat.id,text="HELLO",quote=True)
     except Exception:
                 await b.send_message(
                     chat_id=m.chat.id,
-                    text="I am Coded By [Adarsh Goel](https://github.com/code-x-mania)",
+                    text="I am Coded By [MAGIC121](https://github.com/Magic-121)",
                     
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton("Developer💻", url=f"https://t.me/adarsh_goel")
+                                InlineKeyboardButton("Tempervary Developer💻", url=f"https://t.me/magic121")
                             ]
                         ]
                     ),
@@ -60,7 +60,7 @@ async def follow_user(b,m):
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton("FOLLOW ME", url=f"https://GITHUB.COM/CODE-X-MANIA")
+                                InlineKeyboardButton("FOLLOW ME", url=f"https://github.com/Magic-121")
                             ]
                         ]
                     ),
@@ -83,7 +83,7 @@ async def start(b, m):
                 if user.status == "kicked":
                     await b.send_message(
                         chat_id=m.chat.id,
-                        text="__𝓢𝓞𝓡𝓡𝓨, 𝓨𝓞𝓤 𝓐𝓡𝓔 𝓐𝓡𝓔 𝓑𝓐𝓝𝓝𝓔𝓓 𝓕𝓡𝓞𝓜 𝓤𝓢𝓘𝓝𝓖 𝓜𝓔. 𝓒ᴏɴᴛᴀᴄᴛ ᴛʜᴇ 𝓓ᴇᴠᴇʟᴏᴘᴇʀ__\n\n @codexmaniabot **𝙃𝙚 𝙬𝙞𝙡𝙡 𝙝𝙚𝙡𝙥 𝙮𝙤𝙪**",
+                        text="__𝓢𝓞𝓡𝓡𝓨, 𝓨𝓞𝓤 𝓐𝓡𝓔 𝓐𝓡𝓔 𝓑𝓐𝓝𝓝𝓔𝓓 𝓕𝓡𝓞𝓜 𝓤𝓢𝓘𝓝𝓖 𝓜𝓔. 𝓒ᴏɴᴛᴀᴄᴛ ᴛʜᴇ 𝓓ᴇᴠᴇʟᴏᴘᴇʀ__\n\n @updates_kannada_channels **𝙃𝙚 𝙬𝙞𝙡𝙡 𝙝𝙚𝙡𝙥 𝙮𝙤𝙪**",
                         parse_mode="markdown",
                         disable_web_page_preview=True
                     )
@@ -91,7 +91,7 @@ async def start(b, m):
             except UserNotParticipant:
                  await StreamBot.send_photo(
                     chat_id=m.chat.id,
-                    photo="https://i.ibb.co/NKXgXD4/vlmnwosn-0.png",
+                    photo="https://telegra.ph/file/ce6640178c09162af00fa.jpg",
                     caption="<i>𝙹𝙾𝙸𝙽 CHANNEL 𝚃𝙾 𝚄𝚂𝙴 𝙼𝙴🔐</i>",
                     reply_markup=InlineKeyboardMarkup(
                         [
@@ -106,16 +106,17 @@ async def start(b, m):
             except Exception:
                 await b.send_message(
                     chat_id=m.chat.id,
-                    text="<i>𝓢𝓸𝓶𝓮𝓽𝓱𝓲𝓷𝓰 𝔀𝓮𝓷𝓽 𝔀𝓻𝓸𝓷𝓰</i> <b> <a href='http://t.me/codexmaniabot'>CLICK HERE FOR SUPPORT </a></b>",
+                    text="<i>𝓢𝓸𝓶𝓮𝓽𝓱𝓲𝓷𝓰 𝔀𝓮𝓷𝓽 𝔀𝓻𝓸𝓷𝓰</i> <b> <a href='https://t.me/Updates_kannada_channels'>CLICK HERE FOR SUPPORT </a></b>",
                     parse_mode="HTML",
                     disable_web_page_preview=True)
                 return
         await StreamBot.send_photo(
             chat_id=m.chat.id,
-            photo ="https://user-images.githubusercontent.com/88939380/137127129-a86fc939-2931-4c66-b6f6-b57711a9eab7.png",
+            photo ="https://telegra.ph/file/ce6640178c09162af00fa.jpg",
             caption ="""Hi !
 I am Telegram File to Link Generator Bot with Channel support.
-Send me any file and get a direct download link and streamable link.!""",
+Send me any file and get a direct download link and streamable link.
+©️Powered By @Updates_kannada_channels !""",
             parse_mode="html",
             reply_markup=buttonz)
                                                                                        
@@ -136,12 +137,12 @@ Send me any file and get a direct download link and streamable link.!""",
             except UserNotParticipant:
                 await StreamBot.send_photo(
                     chat_id=m.chat.id,
-                    photo="https://i.ibb.co/ys3Tgpk/mtzijuhd-0.png",
+                    photo="https://telegra.ph/file/ce6640178c09162af00fa.jpg",
                     caption="**Pʟᴇᴀsᴇ Jᴏɪɴ  Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ ᴛᴏ ᴜsᴇ ᴛʜɪs Bᴏᴛ**!\n\n**Dᴜᴇ ᴛᴏ Oᴠᴇʀʟᴏᴀᴅ, Oɴʟʏ Cʜᴀɴɴᴇʟ Sᴜʙsᴄʀɪʙᴇʀs ᴄᴀɴ ᴜsᴇ ᴛʜᴇ Bᴏᴛ**!",
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton("🤖 Join Updates Channel", url=f"https://t.me/{Var.UPDATES_CHANNEL}")
+                                InlineKeyboardButton("🤖 👉 Join Updates Channel", url=f"https://t.me/{Var.UPDATES_CHANNEL}")
                             ],
                             [
                                 InlineKeyboardButton("🔄 Refresh / Try Again",
@@ -203,15 +204,15 @@ Send me any file and get a direct download link and streamable link.!""",
 
 <b>📥 Dᴏᴡɴʟᴏᴀᴅ :</b> <i>{}</i>
 
-<b> 🖥WATCH  :</b> <i>{}</i>
+<b>📺 WATCH  :</b> <i>{}</i>
 
-<b>🚸 Nᴏᴛᴇ : LINK WON'T EXPIRE TILL I DELETE</b>
+<b>⚠️ Nᴏᴛᴇ : LINK WON'T EXPIRE TILL I DELETE</b>
 """
 
         await m.reply_text(
             text=msg_text.format(file_name, file_size, online_link, stream_link),
             parse_mode="HTML",
-            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🖥STREAM", url=stream_link), #Stream Link
+            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("📺STREAM", url=stream_link), #Stream Link
                                                 InlineKeyboardButton('Dᴏᴡɴʟᴏᴀᴅ📥', url=online_link)]]) #Download Link
         )
 
@@ -238,7 +239,7 @@ async def help_handler(bot, message):
         except UserNotParticipant:
             await StreamBot.send_photo(
                 chat_id=message.chat.id,
-                photo="https://i.ibb.co/ys3Tgpk/mtzijuhd-0.png",
+                photo="https://telegra.ph/file/ce6640178c09162af00fa.jpg",
                 Caption="**𝙹𝙾𝙸𝙽 𝚂𝚄𝙿𝙿𝙾𝚁𝚃 𝙶𝚁𝙾𝚄𝙿 𝚃𝙾 𝚄𝚂𝙴 ᴛʜɪs Bᴏᴛ!**\n\n__Dᴜᴇ ᴛᴏ Oᴠᴇʀʟᴏᴀᴅ, Oɴʟʏ Cʜᴀɴɴᴇʟ Sᴜʙsᴄʀɪʙᴇʀs ᴄᴀɴ ᴜsᴇ ᴛʜᴇ Bᴏᴛ!__",
                 reply_markup=InlineKeyboardMarkup(
                     [
@@ -253,19 +254,19 @@ async def help_handler(bot, message):
         except Exception:
             await bot.send_message(
                 chat_id=message.chat.id,
-                text="__Sᴏᴍᴇᴛʜɪɴɢ ᴡᴇɴᴛ Wʀᴏɴɢ. Cᴏɴᴛᴀᴄᴛ ᴍᴇ__ ADARSH GOEL](https://t.me/adarsh_status_bot).",
+                text="__Sᴏᴍᴇᴛʜɪɴɢ ᴡᴇɴᴛ Wʀᴏɴɢ. Cᴏɴᴛᴀᴄᴛ ᴍᴇ__ MAGIC](https://t.me/Updates_kannada_channels).",
                 parse_mode="markdown",
                 disable_web_page_preview=True)
             return
     await message.reply_text(
         text="""<b> Send me any file or video i will give you streamable link and download link.</b>\n
-<b> I also support Channels, add me to you Channel and send any media files and see miracle✨ also send /list to know all commands""",
+<b> I also support Channels, add me to you Channel and send any media files and see miracle ✨🌟 also send /list to know all commands""",
         parse_mode="HTML",
         disable_web_page_preview=True,
         reply_markup=InlineKeyboardMarkup(
             [
-                [InlineKeyboardButton("💁‍♂️ DEV", url="https://t.me/codexmania")],
-                [InlineKeyboardButton("💥 FOLLOW", url="https://GitHub.com/code-x-mania")]
+                [InlineKeyboardButton("💁‍♂️ DEV", url="https://t.me/Updates_kannada_channels")],
+                [InlineKeyboardButton("💥 FOLLOW", url="https://GitHub.com/Magic-121")]
             ]
         )
     )
